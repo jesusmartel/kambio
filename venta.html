@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enviar Mensaje WhatsApp</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <form action="" class="formulario">
+
+      <center><img  width="200" height="200" src="logo1.png">
+      </center>
+
+       <h1 class="formulario__titulo">Cambio de divisas ONLINE Seguro, Rápido, Cómodo y con el mejor Precio</h1>
+       <h3 class="formulario__subtitulo">VENTA</h3>
+       <p class="formulario__parrafo">Llena este pequeño formulario para agilizar tu tramite.</p>
+
+
+       <strong><label for="documento" class="formulario__label">SELECCIONA TU DOCUMENTO DE IDENTIDAD</label></strong>
+       <select id="documento" name="documento" class="formulario__input">
+          <option>DNI</option>
+          <option>C.E</option>
+          <option>PASAPORTE</option>
+
+       </select>
+
+
+        <strong><label for="dni" class="formulario__label">NUMERO DE DOCUMENTO:</label></strong>
+        <input id="dni" type="text" class="formulario__input" required>
+
+        <strong><label for="bancos" class="formulario__label">SELECCIONA TU BANCO</label></strong>
+        <select id="bancos" name="bancos" class="formulario__input">
+           <option>BCP</option>
+           <option>INTERBANCK</option>
+           <option>BBVA</option>
+
+        </select>
+
+        <strong><label for="cuenta" class="formulario__label">CUENTA DESTINO</label></strong>
+        <input id="cuenta" type="text" class="formulario__input" required>
+
+        <strong><label  for="monto" class="formulario__label">INDICAR LA CANTIDAD DE DOLARES</label></strong>
+        <input  id="monto" type="number" class="formulario__input" required >
+
+        <p style="font-size:70%" align="center">****EL CLIENTE debera de enviar su numero de operacion, o el envio del comprobante detallando el monto exacto de la compra, donde sea visible el numero de operacion, por este medio una vez realizada la compra del efectivo, dentro del tiempo vigente de su operacion(20 minutos) dentro del horario de oficina.***</p>
+
+        <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+
+
+
+    </form>
+    <br>
+
+
+    <form>
+    <center>
+    <button class="button" formaction="index.html">Regresar al menu inicial</button>
+    </center>
+    </form>
+    <br>
+    <script src="js/form1.js"></script>
+
+</body>
+</html>
